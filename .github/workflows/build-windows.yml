@@ -29,6 +29,7 @@ jobs:
           --noconfirm
           --windowed
           --name SongListApp
+          --icon assets/SongListApp.ico
           --add-data "data/nocopyright_list.csv;data"
           app.py
 

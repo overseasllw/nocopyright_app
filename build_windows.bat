@@ -11,7 +11,7 @@ if errorlevel 1 (
 )
 
 python -m pip install --upgrade pyinstaller
-python -m PyInstaller --noconfirm --windowed --name "SongListApp" --add-data "data\nocopyright_list.csv;data" app.py
+python -m PyInstaller --noconfirm --windowed --name "SongListApp" --icon "assets\SongListApp.ico" --add-data "data\nocopyright_list.csv;data" app.py
 
 echo.
 echo Done. EXE path:
